@@ -5,7 +5,8 @@ var app = express.createServer(express.logger());
 
 try{
     var data = fs.readFileSync('index.html','utf8');
-    console.log(data);
+   /* console.log(data); 
+   */
 }catch(e){
     console.log('Error reading file index.html!');
 }
